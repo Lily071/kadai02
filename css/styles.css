@@ -11770,6 +11770,21 @@ header.mastheadsub .masthead-heading {
   margin-bottom: 0;
 }
 
+.team-member_sub {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img_sub {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member_sub h4, .team-member_sub .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+
 .img-brand {
   height: 2.75rem;
 }

@@ -11772,10 +11772,11 @@ header.mastheadsub .masthead-heading {
 
 /*for subpage*/
 .team-member_sub {
+  display:flex;
   margin-bottom: 3rem;
   text-align: center;
 }
-.team-member img_sub {
+.team-member_sub img {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
@@ -12098,8 +12099,8 @@ input[type="text"]:focus {
 .bl_selectBlock label{
   display: inline;
 }
-.bl_selectBlock input{
-}
+/*.bl_selectBlock input{
+}*/
 .bl_selectBlock_check label .el_checkbox{
   position: relative;
   top: 3px;
@@ -12139,7 +12140,7 @@ input[type="text"]:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 0.1rem;
 }
 .bl_selectBlock_check label{
   cursor: pointer;
@@ -12191,49 +12192,3 @@ input[type="text"]:focus {
 .js_release{
   cursor: pointer;
 }
-
-/*modal_serch
-.links     {clear:both;}
-.links li  {display: inline-block;width: 80px;margin-bottom: 10px;}
-.links2    {clear:both;}
-.links2 li {display: inline-block;width: 80px;margin-bottom: 10px;}
-.cate {clear:both;	margin:10px;}
-.cate li{
-	float:left;
-	width:80px;
-	height:96px;
-	margin:5px;
-}
-.cate li.m{
-	background-color:#99F;
-}
-.cate li.f{
-	background-color:#F99;
-}
-
-.cate li.b{
-	background-color:#0a98b4;
-}
-.cate li.s{
-	background-color:#cca000;
-}
-
-.btn{
-  display: block;
-  cursor: pointer;
-  width: 100px;
-  text-align: center;
-  margin: 0 auto 10px;
-    margin-bottom: 10px;
-  padding: 10px 10px;
-  font-size: 14px;
-  color: #FFF;
-  background-color: #C00;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-}  
-
-.actv {
-background:#EE4400;
-}
-*/
